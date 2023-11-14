@@ -17,7 +17,12 @@ while (sommaN < 50) {
 }
 
 console.log(numero);
-console.log(sommaN);
+console.log('la somma è', sommaN);
+
+for (let i = 0; i < numero.length; i++) {
+    console.log('numero inserito', numero[i]);
+    
+}
 
 
 
